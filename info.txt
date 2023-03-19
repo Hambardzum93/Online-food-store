@@ -1,0 +1,14 @@
+
+front----------------------------------------------------
+1.  npm install ng-starrating --force
+2.  tsc "noPropertyAccessFromIndexSignature": false,
+---------------------------------------------------------
+beckend--------------------------------------------------
+
+npm init -y
+npm install typescript
+npm install express cors
+npm install ts-node --save-dev
+npm install nodemon --save-dev
+
+---------------------------------------------------------
