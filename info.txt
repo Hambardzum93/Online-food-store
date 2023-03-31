@@ -2,6 +2,13 @@
 front----------------------------------------------------
 1.  npm install ng-starrating --force
 2.  tsc "noPropertyAccessFromIndexSignature": false,
+3.  npm install ngx-toastr
+4.  import { ToastrModule } from "ngx-toastr";
+5.  import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+6.  in angular.json add             "styles": [
+                                     "src/styles.scss",
+                                      "node_modules/ngx-toastr/toastr.css" // try adding '../' if you're using angular cli before 6
+                                   ],
 ---------------------------------------------------------
 beckend--------------------------------------------------
 
@@ -10,5 +17,12 @@ npm install typescript
 npm install express cors
 npm install ts-node --save-dev
 npm install nodemon --save-dev
+npm install jsonwebtoken
+npm install @types/jsonwebtoken
 
 ---------------------------------------------------------
+
+{
+    "email": "ham@gmail.com",
+    "password": "123456"
+}
